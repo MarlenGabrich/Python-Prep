@@ -8,3 +8,8 @@ a = 20
 while a > 0:
     print(a)
     a -= 1
+
+
+# Los archivos ".py" son archivos de código fuente Python estáticos, mientras que los
+# archivos ".ipynb" son documentos interactivos que combinan código ejecutable, texto
+# explicativo y elementos visuales. 
