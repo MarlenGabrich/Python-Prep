@@ -1,0 +1,16 @@
+'capitalize()': convierte el primer carácter de la cadena a mayúsculas
+		y el resto a minúscula
+'count()': devuelve el número de ocurrencias de una subcadena en el string
+'endswith()': verifica si la cadena termina con una subcadena específica
+'find()': busca la primera ocurrencia de una subcadena en la cadena y
+	  devuelve su índica
+'lower()': convierte todos los caracteres de la cadera a minúsculas
+
+'replace()': reemplaza todas las ocurrencias de una subcadena por otra
+'split()': divide la cadena en una lista de subcadenas utilizando un 
+	   separador
+'strip()': elimina los espacios en blanco al inicio y al final de la 
+	   cadena
+'startswith()': verifica si la cadena comienza con una subcadena 
+		específica
+'upper()': convierte todos los caracteres de la cadena a mayúsculas
