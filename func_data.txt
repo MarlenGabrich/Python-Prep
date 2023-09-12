@@ -2,8 +2,13 @@
 		y el resto a minúscula
 'count()': devuelve el número de ocurrencias de una subcadena en el string
 'endswith()': verifica si la cadena termina con una subcadena específica
+'enumerate()': toma un iterable y devuelve un objeto enumerato, que contiene
+			   pares de índices y valores correspondientes a cada elemento 
+			   del iterable
 'find()': busca la primera ocurrencia de una subcadena en la cadena y
 	  devuelve su índica
+'isinstance(x,Iterable)': devuelve un boleano que expresa si x es iterable o número
+						from collections.abc import Iterable
 'lower()': convierte todos los caracteres de la cadera a minúsculas
 
 'replace()': reemplaza todas las ocurrencias de una subcadena por otra
