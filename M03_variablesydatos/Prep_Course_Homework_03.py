@@ -7,14 +7,14 @@
 
 # In[7]:
 
-
+a = 27
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
 
-
+print(type(8.5))
 
 
 
@@ -23,7 +23,7 @@
 # In[8]:
 
 
-
+print(type(a))
 
 
 # 4) Crear una variable que contenga tu nombre
@@ -31,21 +31,21 @@
 # In[2]:
 
 
-
+name = 'Marlen'
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
 
-
+nc = 4+5j
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
 
-
+print(type(nc))
 
 
 
@@ -55,13 +55,15 @@
 
 
 pi = 3.1416
-
+vp = round(pi,4)
+print(vp,type(vp))
 
 # 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
 # In[3]:
 
-
+v1 = 'True'
+v2 = True
 
 
 
@@ -69,7 +71,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print(type(v1),type(v2))
 
 
 
@@ -78,14 +80,18 @@ pi = 3.1416
 # In[1]:
 
 
-
+s1 = 4+5
+s2 = sum([4,5])
+print(s1,s2)
 
 
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
 
-
+s3 = (1+2j)+(2+3j)
+s4 = sum([1+2j,2+3j])
+print(s3,s4)
 
 
 
@@ -93,15 +99,15 @@ pi = 3.1416
 
 # In[4]:
 
-
-
-
+s5 = 1.2+(1+2j)
+s6 = sum([1.2+2j])
+print(s5,s6)
 
 # 13) Realizar una operación de multiplicación
 
 # In[5]:
 
-
+print(2*2)
 
 
 
@@ -109,14 +115,16 @@ pi = 3.1416
 
 # In[6]:
 
-
+print(2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+co = 27/4
+co2 = 27%4
+co3 = 27//4
 
 
 
@@ -124,7 +132,7 @@ pi = 3.1416
 
 # In[9]:
 
-
+print('parte entera:', co3)
 
 
 
@@ -132,7 +140,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+print('resto:',co2)
 
 
 
@@ -140,31 +148,32 @@ pi = 3.1416
 
 # In[2]:
 
-
-
+re = (4*co3)+co2
+print(re)
 
 
 # 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
 
 # In[3]:
 
-
-
+af = '2'+'as'+'2'
+print(af)
 
 
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
 
-
-
-
+print('2'==2)
 
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 
 # In[11]:
 
-
+da1 = '2'
+da2 = 2
+da1 = int(da1)
+print(da1==da2)
 
 
 
@@ -173,7 +182,7 @@ pi = 3.1416
 # In[12]:
 
 
-
+a = float(3.8)
 
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
@@ -181,14 +190,15 @@ pi = 3.1416
 # In[15]:
 
 
-
-
+va = 3
+va -=1
+print(va)
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
 
-
+print(1<<2)
 
 
 
@@ -196,8 +206,7 @@ pi = 3.1416
 
 # In[23]:
 
-
-
+print(2+2,'2'+'2')
 
 
 
@@ -205,5 +214,5 @@ pi = 3.1416
 
 # In[30]:
 
-
+print(2*'hola ')
 
