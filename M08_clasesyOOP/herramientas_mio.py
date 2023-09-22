@@ -4,7 +4,7 @@ class Herramientas:
         pass
     
     def primer(numero):
-        if numero == 0: pass
+        if numero <= 0: pass
         else:
             primo = True
             for i in range(2,numero,1):
